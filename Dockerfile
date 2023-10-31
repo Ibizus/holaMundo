@@ -1,4 +1,4 @@
 FROM amazoncorretto:17.0.7-alpine
-ADD target/holaMundo.jar holaMundo.jar
+ADD target/holamundo.jar holamundo.jar
 ENTRYPOINT ["java", "-jar","holamundo.jar"]
 #EXPOSE 8080
