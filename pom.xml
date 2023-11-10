@@ -23,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org/iesvdm/Main.java</mainClass> <!-- Reemplaza con el nombre completo de tu clase principal -->
+                            <mainClass>org/iesvdm/Main</mainClass> <!-- Reemplaza con el nombre completo de tu clase principal -->
                         </manifest>
                     </archive>
                 </configuration>
