@@ -19,11 +19,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version> <!-- Utiliza la versión adecuada del plugin -->
+                <version>3.3.0</version> <!-- Ojo con usar la versión adecuada del plugin -->
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org/iesvdm/Main</mainClass> <!-- Reemplaza con el nombre completo de tu clase principal -->
+                            <mainClass>org/iesvdm/Main</mainClass> <!-- paquete de la clase principal -->
                         </manifest>
                     </archive>
                 </configuration>
