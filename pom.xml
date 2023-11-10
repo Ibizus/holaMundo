@@ -14,4 +14,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version> <!-- Utiliza la versión adecuada del plugin -->
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>src/main/java/org/iesvdm/Main.java</mainClass> <!-- Reemplaza con el nombre completo de tu clase principal -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
